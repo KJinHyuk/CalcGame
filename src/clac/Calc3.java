@@ -55,7 +55,7 @@ public class Calc3 {
 		System.out.print(" = ");
 	}// examPt
 
-	// 사용자의 입력 메소드
+	// 사용자의 정답 값 입력 메소드
 	public void inPutAns() {
 		Scanner sc = new Scanner(System.in);
 		nDto.setResult(sc.nextInt());
@@ -74,7 +74,7 @@ public class Calc3 {
 		}//else
 	}//comResult
 
-	// 답 체크 결과 출력 메소드
+	// 컴퓨텨 연산 결과와 사용자 정답 입력 값을 비교 하는 메소드
 	public void checkResult() {
 		if (nDto.getResult() == nDto.getResult2()) {
 			System.out.println("정답 입니다.");
