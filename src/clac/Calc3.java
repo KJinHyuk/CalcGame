@@ -91,13 +91,13 @@ public class Calc3 {
 	public void grade() {
 		gd1 = nDto.getConuti();
 		gd2 = nDto.getEx();
-		if (((gd1 / gd2)*100)>90) {
+		if (((gd1 / gd2)*100)>=90) {
 			System.out.print((gd1 / gd2)*100 +"점 - ");
 			System.out.println("A 등급 입니다.");
-		}else if(((gd1 / gd2)*100)>80 && ((gd1 / gd2)*100)>70) {
+		}else if(((gd1 / gd2)*100)>=80 && ((gd1 / gd2)*100)<90) {
 			System.out.print((gd1 / gd2)*100 +"점 - ");
 			System.out.println("B 등급 입니다.");
-		}else if(((gd1 / gd2)*100)>70 && ((gd1 / gd2)*100)>60) {
+		}else if(((gd1 / gd2)*100)>=70 && ((gd1 / gd2)*100)<80) {
 			System.out.print((gd1 / gd2)*100 +"점 - ");
 			System.out.println("C 등급 입니다.");
 		}else {
