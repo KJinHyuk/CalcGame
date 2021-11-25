@@ -74,7 +74,7 @@ public class Calc3 {
 		}//else
 	}//comResult
 
-	// 컴퓨텨 연산 결과와 사용자 정답 입력 값을 비교 하는 메소드
+	// 컴퓨터 연산 결과와 사용자 정답 입력 값을 비교 하는 메소드
 	public void checkResult() {
 		if (nDto.getResult() == nDto.getResult2()) {
 			System.out.println("정답 입니다.");
